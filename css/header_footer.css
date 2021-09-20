@@ -1,0 +1,50 @@
+.header_tabs{
+    margin-left:20px !important;
+    margin-right:60px;
+}
+
+.footer_guides_menu{
+    width:40%; 
+    height:fit-content;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+
+.footer_headers{ 
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.guides{
+    width:100%; 
+    height:fit-content;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:768px){
+    
+    .footer_guides_menu{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .jumbotron{
+        background-size: cover;
+        height: 100px;
+    }
+}
+
+@media  (min-width: 768px){
+.col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 25%;
+}
+
+
+}

@@ -1,0 +1,13 @@
+.gettingaround_header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#484848;
+}
+
+@media screen and (max-width:768px){
+
+    .gettingaround_header{
+        text-align: center;
+    }
+
+}
